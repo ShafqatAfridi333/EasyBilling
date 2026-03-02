@@ -48,7 +48,7 @@ In your **app-level `build.gradle.kts`**:
 
 ```kotlin
 dependencies {
-    implementation("com.github.yourusername:EasyBilling:1.0.1")
+    implementation("com.github.appsstock:easybilling:<version>")
 }
 ```
 
