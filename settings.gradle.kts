@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Shafqat_Billing_Repo"
+rootProject.name = "EasyBilling"
 include(":app",":billing")
