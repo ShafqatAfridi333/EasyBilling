@@ -5,15 +5,15 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.easybilling.billing.manager.BillingListener
-import com.easybilling.billing.manager.BillingProductDetailsListener
-import com.easybilling.billing.manager.BillingPurchaseListener
+import com.easybilling.billing.utils.listeners.BillingListener
+import com.easybilling.billing.utils.listeners.BillingProductDetailsListener
+import com.easybilling.billing.utils.listeners.BillingPurchaseListener
 import com.easybilling.billing.manager.EasyBillingManager
-import com.easybilling.billing.model.BillingError
-import com.easybilling.billing.model.EasyProrationMode
-import com.easybilling.billing.model.ProductDetail
-import com.easybilling.billing.model.PurchaseDetail
-import com.easybilling.billing.model.RecurringMode
+import com.easybilling.billing.data.BillingError
+import com.easybilling.billing.utils.enums.EasyProrationMode
+import com.easybilling.billing.data.ProductDetail
+import com.easybilling.billing.data.PurchaseDetail
+import com.easybilling.billing.utils.enums.RecurringMode
 import com.easybilling.sample.databinding.ActivityMainBinding
 import kotlinx.coroutines.launch
 

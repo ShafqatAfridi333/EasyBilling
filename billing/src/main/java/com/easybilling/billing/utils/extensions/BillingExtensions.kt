@@ -1,12 +1,12 @@
-package com.easybilling.billing.manager
+package com.easybilling.billing.utils.extensions
 
 import com.android.billingclient.api.BillingClient
 import com.android.billingclient.api.ProductDetails
-import com.easybilling.billing.model.BillingError
-import com.easybilling.billing.model.PricingPhase
-import com.easybilling.billing.model.ProductDetail
-import com.easybilling.billing.model.ProductType
-import com.easybilling.billing.model.RecurringMode
+import com.easybilling.billing.data.BillingError
+import com.easybilling.billing.data.PricingPhase
+import com.easybilling.billing.data.ProductDetail
+import com.easybilling.billing.utils.enums.ProductType
+import com.easybilling.billing.utils.enums.RecurringMode
 import java.text.SimpleDateFormat
 import java.util.Currency
 import java.util.Date

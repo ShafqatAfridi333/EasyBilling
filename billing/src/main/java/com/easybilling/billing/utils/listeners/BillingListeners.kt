@@ -1,8 +1,8 @@
-package com.easybilling.billing.manager
+package com.easybilling.billing.utils.listeners
 
-import com.easybilling.billing.model.BillingError
-import com.easybilling.billing.model.ProductDetail
-import com.easybilling.billing.model.PurchaseDetail
+import com.easybilling.billing.data.BillingError
+import com.easybilling.billing.data.ProductDetail
+import com.easybilling.billing.data.PurchaseDetail
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Connection

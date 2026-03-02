@@ -1,4 +1,4 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.data
 
 /**
  * Sealed class representing all possible billing error states.

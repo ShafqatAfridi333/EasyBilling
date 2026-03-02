@@ -1,4 +1,4 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.utils.enums
 
 import com.android.billingclient.api.BillingFlowParams
 

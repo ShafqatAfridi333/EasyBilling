@@ -1,10 +1,13 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.data
+
+import com.easybilling.billing.utils.enums.ProductType
+import com.easybilling.billing.utils.enums.RecurringMode
 
 /**
  * Detailed information about a product fetched from the Play Store.
  *
  * For IN-APP products, [pricingPhases] will contain a single [PricingPhase] with
- * [RecurringMode.ORIGINAL]. For subscriptions, multiple phases are possible.
+ * [com.easybilling.billing.utils.enums.RecurringMode.ORIGINAL]. For subscriptions, multiple phases are possible.
  *
  * @property productId       The product ID as set in Play Console
  * @property planId          The base plan ID (subscriptions only, empty for in-app)

@@ -1,4 +1,6 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.data
+
+import com.easybilling.billing.utils.enums.RecurringMode
 
 /**
  * Represents a single pricing phase in a subscription plan.

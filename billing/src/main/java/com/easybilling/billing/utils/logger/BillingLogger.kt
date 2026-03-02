@@ -1,4 +1,4 @@
-package com.easybilling.billing.manager
+package com.easybilling.billing.utils.logger
 
 import android.util.Log
 

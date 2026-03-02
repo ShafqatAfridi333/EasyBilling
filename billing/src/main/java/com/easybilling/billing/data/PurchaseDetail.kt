@@ -1,4 +1,6 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.data
+
+import com.easybilling.billing.utils.enums.ProductType
 
 /**
  * Represents a verified, active purchase.

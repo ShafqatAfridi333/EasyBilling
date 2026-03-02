@@ -1,4 +1,4 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.data
 
 /**
  * A generic result wrapper for billing operations.

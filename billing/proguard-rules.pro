@@ -6,7 +6,12 @@
 -keep class com.easybilling.billing.** { *; }
 
 # Keep model classes (required for serialization)
--keep class com.easybilling.billing.model.** { *; }
+-keep class com.easybilling.billing.data.** { *; }
+-keep class com.easybilling.billing.utils.** { *; }
+-keep class com.easybilling.billing.utils.extensions.** { *; }
+-keep class com.easybilling.billing.utils.listeners.** { *; }
+-keep class com.easybilling.billing.utils.logger.** { *; }
+-keep class com.easybilling.billing.utils.enums.** { *; }
 
 # Keep listener interfaces
 -keep interface com.easybilling.billing.manager.** { *; }
@@ -24,7 +29,7 @@
 }
 
 # Keep data classes (prevent field stripping)
--keepclassmembers class com.easybilling.billing.model.** {
+-keepclassmembers class com.easybilling.billing.data.** {
     <fields>;
     <init>(...);
     public *;

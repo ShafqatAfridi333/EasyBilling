@@ -1,4 +1,4 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.utils.enums
 
 /**
  * Represents the type of a billing product.

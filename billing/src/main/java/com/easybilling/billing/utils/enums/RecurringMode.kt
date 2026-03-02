@@ -1,4 +1,4 @@
-package com.easybilling.billing.model
+package com.easybilling.billing.utils.enums
 
 /**
  * Describes the nature of a subscription pricing phase.
